@@ -1,0 +1,10 @@
+sudo: true
+dist: trusty
+language: node_js
+node_js:
+  - "8.9.4"
+install:
+  - sudo apt-get -y install expect
+  - npm install
+script:
+  - ./scripts/test.sh

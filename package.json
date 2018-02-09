@@ -1,0 +1,29 @@
+{
+  "name": "typescript-node",
+  "version": "0.0.1",
+  "description": "a template of node.js typescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "anuoua create typescript-node test-project && cd test-project && npm install && npm test",
+    "posttest": "rimraf test-project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuoua-cli-templates/typescript-node.git"
+  },
+  "keywords": [
+    "cli",
+    "template"
+  ],
+  "author": "anuoua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuoua-cli-templates/typescript-node/issues"
+  },
+  "homepage": "https://github.com/anuoua-cli-templates/typescript-node#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "anuoua-cli": "0.0.3",
+    "rimraf": "^2.6.2"
+  }
+}
